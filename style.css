@@ -1,0 +1,144 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+svg {
+    padding: 0 16px;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Login */
+.login-wrapper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 80px 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 24px;
+    min-height: 28px;
+
+}
+
+.input-box img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.input-box input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: 28px;
+    font-size: 20px;
+}
+
+.password-container img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    text-align: left;
+    color: #0066ff;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: block;
+    background-color: #4c8bf5;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 94%;
+    border-radius: 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #357ae8;
+}
+
+.cancel {
+    display: block;
+    margin-top: 15px;
+    color: #0066ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cancel:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.red-text {
+    color: red;
+    font-size: 24px;
+}
+
+.error-text {
+    font-size: 20px;
+}
